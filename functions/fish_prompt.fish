@@ -17,6 +17,9 @@
 
 set -g __bobthefish_current_bg NONE
 
+set -g theme_display_user yes
+set -g default_user heimonsy
+
 # Powerline glyphs
 #set __bobthefish_branch_glyph            \uE0A0
 #set __bobthefish_ln_glyph                \uE0A1
