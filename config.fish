@@ -10,3 +10,6 @@ set -x GOPATH $HOME/Develop/go
 set -x PATH /usr/local/sbin $PATH
 set -x PATH $PATH $GOROOT/bin $HOME/Develop/go/bin $HOME/bin $HOME/.composer/vendor/bin
 set -x TERM xterm-256color
+
+set -g theme_display_user yes
+set -g theme_date_format "+%Y-%m-%d %H:%M:%S"
