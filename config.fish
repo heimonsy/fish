@@ -7,7 +7,7 @@ set -x FISH_PATH $HOME/.config/fish
 set -x GOROOT /usr/local/go
 set -x GOPATH $HOME/Develop/go
 # set -x GOPATH $HOME/Develop/go ./vendor ./
-set -x PATH $GOROOT/bin $HOME/Develop/go/bin $HOME/bin $PATH
+set -x PATH $GOROOT/bin $HOME/Develop/go/bin $HOME/bin /usr/local/sbin $PATH
 set -x TERM xterm-256color
 
 set -g theme_date_format "+%Y-%m-%d %H:%M:%S"
